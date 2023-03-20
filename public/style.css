@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #22272e;
+}
+
+p {
+    color: #FFFFFF;
+    font-family: "Poppins", "Arial", "Helvetica", "sans-serif";
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    border-bottom: 1px solid #31313131;
+}
+
+header div input {
+    width: 500px;
+    height: 40px;
+    border: 2px solid #21212121;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+header div input::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+header div input:focus {
+    border-color: #6b6b6bb0;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+main .card {
+    display: none;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 800px;
+}
+
+main .card .profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .card .profile img {
+    width: 200px;
+}
+
+main .card .profile p {
+    font-size: 18px;
+    margin-top: 9px;
+}
+
+main .card .profile a {
+    text-decoration: none;
+    color: #539bf5;
+}
+
+main .card .profile a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+main .card .status {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+main .card .status img {
+    width: 430px;
+}
