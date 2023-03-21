@@ -1,6 +1,7 @@
 const http = require("http");
 const path = require("path");
 const fs = require("fs");
+const API = require("./api/index.js");
 const port = 5000;
 
 const server = http.createServer((req, res) => {
@@ -19,4 +20,4 @@ const server = http.createServer((req, res) => {
     });
 });
 
-server.listen(port, console.log(`Server is running: http://localhost:${port}`));
+server.listen(port, console.log(`SERVER is running: http://localhost:${port}`));
